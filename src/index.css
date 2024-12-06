@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif ;
+  scroll-behavior: smooth;
+}
+
+/* div, figure {
+  border: 1px solid red;
+
+} */
+
+#hero {
+  height: calc(100vh - 96px);
+}
+
+/* Row is for capping the sides, 
+aka section in this case, and
+ container for the top and bottom */
+
+section {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+/* :root {
+  --colorp2: #191919;
+  --colordark: #000000;
+  --colorlight: #ffffff;
+  --color1: #05f903;
+  --color2: #0abefb;
+  --ff: "Open Sans", sans-serif;
+  --h1: bold 54px / 70px var(--ff);
+  --h2: bold 36px / 36px var(--ff);
+  --h3: bold 24px / 30px var(--ff);
+  --links: bold 18px / 18px var(--ff);
+  --p2: 30px / 36px var(--ff);
+  --p: 18px / 30px var(--ff);
+  --transition: 0.3s ease-in-out;
+} */
 
