@@ -1,4 +1,3 @@
-import Button from "./Button";
 import CollieLogo from '../assets/CollieLogo.png'
 
 const Nav = () => {
@@ -14,24 +13,24 @@ const Nav = () => {
         <div className="">
           <h1 className="tracking-widest text-color2">THE COLLIE KENNEL</h1>
           <p className="tracking-wider text-light">The <span className="text-color1">Smart Way</span> To Adopt</p>
+        
         </div>
       </div>
 
-      <ul className="flex gap-12 max-md:hidden">
+      <ul className="flex gap-12 max-md:hidden text-color1 ">
         <li>
-          <a href="/">Home</a>
+          <a className="hover:text-color2" href="/">Home</a>
         </li>
         <li>
-          <a href="">Adopt</a>
+          <a className="hover:text-color2" href="">Adopt</a>
         </li>
         
         <li>
-          <a href="">Contact</a>
+          <a className="hover:text-color2" href="">Contact</a>
         </li>
       </ul>
-
-      <Button text="Donate" />
-    </nav>
+        
+   </nav>
   );
 };
 
