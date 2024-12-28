@@ -10,9 +10,9 @@ const Nav = () => {
           height={50}
            alt="Collie Logo" />
         </figure>
-        <div className="">
+        <div>
           <h1 className="tracking-widest text-color2">THE COLLIE KENNEL</h1>
-          <p className="tracking-wider text-light">The <span className="text-color1">Smart Way</span> To Adopt</p>
+          <p className="tracking-wider text-light">The <span className="text-color1 ">Smart Way</span> To Adopt</p>
         
         </div>
       </div>
@@ -29,6 +29,9 @@ const Nav = () => {
           <a className="hover:text-color2" href="">Contact</a>
         </li>
       </ul>
+      <div className='max-md:block md:hidden text-light'>
+        <h1>Menu</h1>
+      </div>
         
    </nav>
   );

@@ -1,8 +1,8 @@
 //Section about the impact we have made as well as with the assistance of collie lovers
 const Impact = () => {
   return (
-    <main className="w-full h-full bg-color2 mb-40">
-      <h1 className="text-4xl  text-light text-center font-bold py-10">
+    <main className="w-full h-full bg-color2 mb-40 ">
+      <h1 className="text-4xl max-sm:text-2xl  text-light text-center font-bold py-10">
         Thank you for helping us <span className="text-color1">save</span>{" "}
         lives!
       </h1>
@@ -13,8 +13,8 @@ const Impact = () => {
             alt=""
             width={100}
           />
-          <h1 className="text-4xl  text-light text-center font-bold py-2">69,420</h1>
-          <p className="text-light text-xl font-bold">Total Collies Saved</p>
+          <h1 className="text-4xl max-sm:text-xl  text-light text-center font-bold py-2">69,420</h1>
+          <p className="text-light text-xl max-sm:text-lg font-bold">Total Collies Saved</p>
         </div>
         <div className="flex flex-col justify-center items-center pb-12">
           <img
@@ -22,8 +22,8 @@ const Impact = () => {
             alt=""
             width={100}
           />
-          <h1 className="text-4xl  text-light text-center font-bold py-2">9,001</h1>
-          <p className="text-light text-xl font-bold">Animals Saved this Year</p>
+          <h1 className="text-4xl max-sm:text-xl  text-light text-center font-bold py-2">9,001</h1>
+          <p className="text-light text-xl max-sm:text-lg font-bold">Animals Saved this Year</p>
         </div>
       </div>
     </main>

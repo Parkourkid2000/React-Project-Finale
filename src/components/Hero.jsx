@@ -5,8 +5,8 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <section id="hero" className="relative">
-      <div className="flex flex-1 items-center">
-        <div className="flex flex-col w-full px-8">
+      <div className="flex flex-1 items-center max-sm:flex-col ">
+        <div className="flex flex-col w-full px-8 max-sm:py-6 max-sm:text-center">
           <h1 className="text-3xl font-bold text-color2">
             Help Border Collies in Need
           </h1>
@@ -16,12 +16,11 @@ const Hero = () => {
           </p>
           <Button text="Click Me" />
         </div>
-        <div>
-          <img src={CagedCollie2} alt="Caged Collie 2" />
+        <div className="w-[100vw] flex items-center justify-center">
+          <img src={CagedCollie2} alt="Caged Collie 2"
+          className="flex" />
         </div>
-        <div className="">
-          <img src="" alt="" />
-        </div>
+        
       </div>
     </section>
   );
