@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
           <Button text="Click Me" />
         </div>
-        <div className="w-[100vw] flex items-center justify-center">
+        <div className="max-w-[100vw] flex items-center justify-center">
           <img src={CagedCollie2} alt="Caged Collie 2"
           className="flex" />
         </div>

@@ -17,14 +17,14 @@ const Adopt = () => {
         </p>
       </div>
       <div className="flex flex-col items-center">
-      <div className="mb-20 rounded-[50px] relative  flex  max-w-xl justify-center items-center">
-          <img src={Collie1} className="w-[500px]  max-w-xl rounded-[50px]" alt="" />
+      <div className="mb-20 rounded-[50px] relative flex  max-w-xl justify-center items-center">
+          <img src={Collie1} className="w-[500px]  max-w-[90vw] rounded-[50px]" alt="" />
           <div className="bg-color2 text  text-4xl max-w-xl font-bold flex items-center justify-center h-20 rounded-b-[50px] absolute bottom-[-30px] w-full">
             <button className="text-light">See our Collies</button>
           </div>
         </div>
         <div className="mb-20 rounded-[50px] relative  flex max-w-xl justify-center items-center">
-          <img src={Collie2} className="w-[500px] max-w-xl rounded-[50px]" alt="" />
+          <img src={Collie2} className="w-[500px] max-w-[90vw] rounded-[50px]" alt="" />
           <div className="bg-color2 text-4xl max-w-xl font-bold flex items-center justify-center h-20 rounded-b-[50px] absolute bottom-[-30px] w-full">
             <button className="text-light">See our Collies</button>
           </div>
@@ -32,7 +32,7 @@ const Adopt = () => {
         
       </div>
 
-      <div className="md:text-center flex justify-around md:flex-col items-center pb-16">
+      <div className="md:text-center flex justify-around max-sm:flex-col max-sm:text-center md:flex-col items-center pb-16">
         <div>
           <h1 className="pb-4 text-xl ">
             Ready to give a pet a <span>happy home?</span>
@@ -40,8 +40,9 @@ const Adopt = () => {
           <p className="text-lg pb-6">FILL OUT AN ADOPTION FORM!</p>
         </div>
         <div className="">
-          <button className="bg-color2 text-light rounded-full px-12 py-4 font-bold text-lg">
-            get started
+          <button className="bg-color2 text-light rounded-full px-12 py-4 font-bold text-lg
+          ">
+            Get Started
           </button>
         </div>
       </div>
