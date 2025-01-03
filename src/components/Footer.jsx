@@ -1,5 +1,7 @@
 import CollieLogo from "../assets/CollieLogo.png";
 const Footer = () => {
+
+
   return (
     <footer className="bg-color2">
       <div className="flex flex-col items-center justify-center">
@@ -11,21 +13,28 @@ const Footer = () => {
         </figure>
         <div className="flex gap-40 max-sm:gap-20 pb-6 text-center ">
         <ul className="text-light">
-        <h1 className="text-lg font-bold text-color1 uppercase">Ways to Help</h1>
-            {/* <li>Adopt</li>
+ 
+<a href="/">
+            <h1 className="text-lg font-bold text-color1 cursor-pointer uppercase">Ways to Help</h1>
+  
+</a>  
+           {/* <li>Adopt</li>
             <li>Donate</li>
             <li>Foster</li>
             <li>Volunteer</li> */}
           </ul>
           <ul className="text-light">
-            <h1 className="text-lg font-bold text-color1 uppercase">Adopt</h1>
-            {/* <li>Services</li>
+<a href="/pets">
+                <h1 className="text-lg font-bold text-color1 cursor-pointer uppercase">Adopt</h1>
+  
+</a>  
+         {/* <li>Services</li>
             <li>Services</li>
             <li>Services</li>
             <li>Services</li> */}
           </ul>
           <ul className="text-light">
-            <h1 className="text-lg font-bold text-color1 uppercase">Contact</h1>
+            <h1 className="text-lg font-bold text-color1 cursor-not-allowed uppercase">Contact</h1>
             {/* <li>Services</li>
             <li>Services</li>
             <li>Services</li>
@@ -45,6 +54,7 @@ const Footer = () => {
         </ul> */}
         <p className="pb-8 text-light font-bold">Copyright 2024 All Rights Reserved @ The Collie Kennel</p>
       </div>
+      
     </footer>
   );
 };
