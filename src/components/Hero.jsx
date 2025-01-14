@@ -16,7 +16,7 @@ const Hero = () => {
             gift can <span className="font-extrabold">save a life.</span>
           </p>
           <Link to="/pets">
-            <Button text="Click Me" />
+            <Button text="Adopt Today!" />
           </Link>
         </div>
         <div className="max-w-[100vw] flex items-center justify-center">
