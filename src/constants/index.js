@@ -22,4 +22,4 @@ const imgSource = [
   Collie10,
 ];
 
-export default { imgSource };
+export default imgSource ;

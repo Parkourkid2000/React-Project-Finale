@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Dog from "../components/Dog";
 import { Link } from "react-router-dom";
 import Skeleton from "../components/Skeleton";
+import imgSource from "../constants";
 
 
 const Pets = () => {
@@ -20,12 +21,16 @@ const Pets = () => {
       FetchDogs();
     }, 2000);
   }, []);
+
   return (
     <section className="my-8">
-      {dogs.length ? dogs.map((dog) => (
+      {dogs.length ? dogs.map((dog, index) => (
 <Link to={`/petInfo/${dog.id}`} key={dog.id}>
   
-          <Dog name={dog.name} email={dog.email} address={dog.address.city}  />
+          <Dog name={dog.name}
+           email={dog.email}
+            address={dog.address.city}
+            img={imgSource[index % imgSource.length]}  />
           
 </Link>
       )) : <Skeleton /> }
