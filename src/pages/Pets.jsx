@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Dog from "../components/Dog";
 import { Link } from "react-router-dom";
+import Skeleton from "../components/Skeleton";
 
 
 const Pets = () => {
@@ -17,18 +18,18 @@ const Pets = () => {
   useEffect(() => {
     setTimeout(() => {
       FetchDogs();
-    }, 500);
+    }, 2000);
   }, []);
   return (
-    <div>
+    <section className="my-8">
       {dogs.length ? dogs.map((dog) => (
 <Link to={`/petInfo/${dog.id}`} key={dog.id}>
   
-          <Dog  id={dog.id} name={dog.name} email={dog.email} username={dog.username}  />
+          <Dog name={dog.name} email={dog.email} address={dog.address.city}  />
           
 </Link>
-      )) : <h1>Loading...</h1> }
-    </div>
+      )) : <Skeleton /> }
+    </section>
   );
 };
 

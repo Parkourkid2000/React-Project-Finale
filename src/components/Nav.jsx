@@ -26,11 +26,11 @@ const Nav = () => {
           <a className="hover:text-color2" href="/">Home</a>
         </li>
         <li>
-          <a className="hover:text-color2" href="">Adopt</a>
+          <a className="hover:text-color2" href="/pets">Adopt</a>
         </li>
         
         <li>
-          <a className="hover:text-color2" href="">Contact</a>
+          <a className="hover:text-color2 cursor-not-allowed" >Contact</a>
         </li>
       </ul>
       <div className='max-md:block md:hidden text-light'>
