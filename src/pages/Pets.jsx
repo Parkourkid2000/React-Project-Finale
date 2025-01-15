@@ -19,7 +19,7 @@ const Pets = () => {
   useEffect(() => {
     setTimeout(() => {
       FetchDogs();
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (

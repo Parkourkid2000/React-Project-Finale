@@ -34,7 +34,7 @@ const Nav = () => {
         </li>
       </ul>
       <div className='max-md:block md:hidden text-light'>
-        <h1 className='hover:text-color1 cursor-pointer'>Menu</h1>
+        <h1 className='hover:text-color1 cursor-not-allowed'>Menu</h1>
       </div>
         
    </nav>

@@ -14,11 +14,11 @@ const Dog = ({ name, email, address, img }) => {
             <span className="text-color1 text-lg">Dog Name:</span> {name}
           </p>
           <p>
-            <span className="text-color1 text-lg">Shelter Location:</span>
-            {address}
+            <span className="text-color1 text-lg">Shelter Location: </span>
+             {''}{address}
           </p>
           <p>
-            <span className="text-color1 text-lg">Shelter Email:</span>
+            <span className="text-color1 text-lg">Shelter Email: </span>
             {email}
           </p>
         </div>
