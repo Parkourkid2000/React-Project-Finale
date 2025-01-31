@@ -1,4 +1,5 @@
 import CollieLogo from "../assets/CollieLogo.png";
+
 const Footer = () => {
 
 

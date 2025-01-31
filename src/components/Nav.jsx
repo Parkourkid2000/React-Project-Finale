@@ -1,10 +1,11 @@
 import CollieLogo from '../assets/CollieLogo.png'
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <nav className="flex justify-between items-center h-24 px-12 bg-dark font-bold text-lg flex-1 font-custom">
       <div className="flex items-center justify-between">
-        <a href='/'>
+        <Link to='/'>
           
             <figure className="px-4">
               <img src={CollieLogo}
@@ -13,7 +14,7 @@ const Nav = () => {
                alt="Collie Logo" />
             </figure>
           
-        </a>
+        </Link>
         <div>
           <h1 className="tracking-widest text-color2">THE COLLIE KENNEL</h1>
           <p className="tracking-wider text-light">The <span className="text-color1 ">Smart Way</span> To Adopt</p>
@@ -23,10 +24,10 @@ const Nav = () => {
 
       <ul className="flex gap-12 max-md:hidden text-color1 ">
         <li>
-          <a className="hover:text-color2" href="/">Home</a>
+          <Link className="hover:text-color2" to="/">Home</Link>
         </li>
         <li>
-          <a className="hover:text-color2" href="/pets">Adopt</a>
+          <Link className="hover:text-color2" to="/pets">Adopt</Link>
         </li>
         
         <li>

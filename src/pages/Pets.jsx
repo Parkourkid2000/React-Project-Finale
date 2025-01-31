@@ -14,7 +14,7 @@ const Pets = () => {
       "https://jsonplaceholder.typicode.com/users"
     );
     setDogs(data);
-    console.log(data);
+    // console.log(data);
   }
   useEffect(() => {
     setTimeout(() => {

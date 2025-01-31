@@ -13,19 +13,16 @@ function App() {
   return (
 
     <>
-    <Nav />
 
 <Router>
+    <Nav />
   <Routes>
     <Route path='/' element={<Landing />} />
     <Route path='/pets' element={<Pets />} />
     <Route path='/petInfo/:id' element={<PetInfo />} />
   </Routes>
-    
-        
-        
-</Router>
     <Footer />
+</Router>
     </>
   )
 }

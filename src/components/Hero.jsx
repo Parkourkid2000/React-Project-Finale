@@ -1,5 +1,5 @@
 import CagedCollie2 from "../assets/CagedCollie2.png";
-import CagedCollie1 from "../assets/CagedCollie.png";
+// import CagedCollie1 from "../assets/CagedCollie.png";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 
