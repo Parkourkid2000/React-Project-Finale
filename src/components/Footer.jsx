@@ -1,4 +1,5 @@
 import CollieLogo from "../assets/CollieLogo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
@@ -25,10 +26,10 @@ const Footer = () => {
             <li>Volunteer</li> */}
           </ul>
           <ul className="text-light">
-<a href="/pets">
+<Link to="/pets">
                 <h1 className="text-lg font-bold text-color1 cursor-pointer uppercase">Adopt</h1>
   
-</a>  
+</Link>  
          {/* <li>Services</li>
             <li>Services</li>
             <li>Services</li>
