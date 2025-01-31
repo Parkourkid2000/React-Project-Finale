@@ -26,7 +26,7 @@ const Footer = () => {
             <li>Volunteer</li> */}
           </ul>
           <ul className="text-light">
-<Link href="/pets">
+<Link to="/pets">
                 <h1 className="text-lg font-bold text-color1 cursor-pointer uppercase">Adopt</h1>
   
 </Link>  
