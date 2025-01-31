@@ -18,7 +18,7 @@ function App() {
     <Nav />
   <Routes>
     <Route path='/' element={<Landing />} />
-    <Route path='/pets' element={<Pets />} />
+    <Route path='/pets' element={<Pets />} Component={Pets} />
     <Route path='/petInfo/:id' element={<PetInfo />} />
   </Routes>
     <Footer />
