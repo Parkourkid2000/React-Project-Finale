@@ -7,6 +7,26 @@ import Pets from "./pages/Pets";
 import PetInfo from "./pages/PetInfo";
 
 function App() {
+//   const countRef = React.useRef(0);
+//   const [renderCount, setRenderCount] = React.useState(0);
+
+//   const handleClick = () => {
+//     if (renderCount == 0) {
+//       setRenderCount((prev) => prev + 1);
+//     } else {
+//       countRef.current++;
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <p>Ref: {countRef.current}</p>
+//       <p>Render count: {renderCount}</p>
+//       <button onClick={handleClick}>Click</button>
+//     </div>
+//   );
+// }
+
   return (
     <>
       <Router>
